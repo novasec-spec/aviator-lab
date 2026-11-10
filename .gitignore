@@ -1,0 +1,102 @@
+# Comprehensive .gitignore for multiple project types
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+desktop.ini
+
+# Build and Dependencies
+node_modules/
+bower_components/
+dist/
+build/
+bin/
+obj/
+out/
+target/
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.o
+*.pyc
+__pycache__/
+
+# Environment and Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.sample
+!.env.example
+secrets.json
+*.pem
+*.key
+auth.json
+.venv/
+venv/
+env/
+python-venv/
+.python-version
+.ruby-version
+
+# IDEs and Editors
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.iws
+*.iml
+*.ipr
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing and Coverage
+coverage/
+.nyc_output/
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Caches
+.cache/
+.npm/
+.eslintcache
+.stylelintcache
+.prettiercache
+.parcel-cache
+.next
+.nuxt
+.svelte-kit
+.docusaurus
+
+# Misc
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+Network Trash Folder
+Temporary Items
+.Trashes
+*.zip
+*.tar.gz
+*.gguf
