@@ -100,3 +100,7 @@ Temporary Items
 *.zip
 *.tar.gz
 *.gguf
+
+# Local databases
+*.db
+*.sqlite
